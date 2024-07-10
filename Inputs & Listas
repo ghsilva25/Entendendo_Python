@@ -1,0 +1,83 @@
+# IMPUTS
+email = input("Escreva seu e-mail: ")
+nome = input("Seu primeiro nome: ")
+
+print(nome, email)
+
+print(f"{nome}, Verifique seu e-mail: {email} que enviamos um link de confirmação!")
+
+#TRANSFORMANDO O NÚMERO EM DECIMAL
+faturamento = float(input("Escreva o faturamento: "))
+print(faturamento)
+
+imposto = faturamento * 0.1
+print(imposto)
+
+
+# LISTAS
+
+vendas = {100, 50, 14, 20, 30, 700}
+
+# SOMA DOS ELEMENTOS
+total_vendas = sum(vendas)
+print(total_vendas)
+
+# TAMANHO DA LISTA
+qtde = len(vendas)
+print(qtde)
+
+# MÁXIMO E MÍNIMO
+print(max(vendas))
+print(min(vendas))
+
+# PEGAR POSIÇÃO
+print(vendas[5])
+
+lista_produtos = ["iphone", "airpod", "ipad", "notebook"]
+
+produto_procurado = input("Pesquise pelo nomne do produto: ")
+produto_procurado = produto_procurado.lower()
+
+
+print("iphone" in lista_produtos)
+
+
+# ADICIONAR UM ITEM
+lista_produtos.append("Apple Watch")
+print(lista_produtos)
+
+
+# REMOVER UM ITEM ATRAVÉS DE UM TEXTO ESPECÍFICO
+lista_produtos.remove("Apple Watch")
+print(lista_produtos)
+
+# NO POP VOCÊ PASSA A POSIÇÃO DA LISTA A SER REMOVIDA
+lista_produtos.pop(0)
+
+
+# EDITAR UM ITEM 
+precos = [100, 1500, 3500]
+precos [0] = 6000 
+print(precos)
+
+
+# CONTAR QUANTAS VEZES UM ITEM APARECE NA LISTA
+lista_produtos = ["iphone", "airpod", "macbook", "iphone", "ipad", "iphone"]
+print(lista_produtos.count("apple watch"))
+
+
+# ORDENAR UMA LISTA
+lista_produtos.sort(reverse=True)
+print(lista_produtos)
+
+
+
+
+
+
+
+
+
+
+
+
